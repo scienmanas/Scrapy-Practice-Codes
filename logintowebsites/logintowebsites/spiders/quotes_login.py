@@ -24,7 +24,11 @@ class QuotesLoginSpider(scrapy.Spider):
 
     def start_scrapping(self, response) :
         for quote in response.css('div.quote') :
-            pass
+            yield {
+                'text' : quote.css('span.text::text').get(),
+                'author' : quote.css('small.author ::text').get(),
+                'tags' : quote.css('div.tags a.tag::text').getall(),
+            }
 
-    def parse(self, response):
-        pass
+    # def parse(self, response):
+    #     pass
