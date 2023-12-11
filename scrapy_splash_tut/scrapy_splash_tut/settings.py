@@ -17,10 +17,10 @@ NEWSPIDER_MODULE = "scrapy_splash_tut.spiders"
 #USER_AGENT = "scrapy_splash_tut (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Endpoint of scrapy splash server
-SPLASH_URL = 'https://localhost:8050'
+SPLASH_URL = 'http://0.0.0.0:8050/'
 
 # Enable spash download middlewares and change 
 DOWNLOADER_MIDDLEWARES = {
