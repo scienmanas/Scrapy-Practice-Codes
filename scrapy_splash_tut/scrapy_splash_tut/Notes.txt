@@ -25,3 +25,13 @@ SPIDER_MIDDLEWARES = {
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 
 4. Use javascript scripts
+
+5. Configure docker for scrapy_splash
+
+sudo docker pull scrapinghub/splash
+
+sudo docker run -it -p 8050:8050 --rm scrapinghub/splash
+
+
+6. Run your project with command line:
+scrapy crawl quotes
