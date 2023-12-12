@@ -24,4 +24,4 @@ SPIDER_MIDDLEWARES = {
 # Define the Splash DupeFilter
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 
-4. 
+4. Use javascript scripts
