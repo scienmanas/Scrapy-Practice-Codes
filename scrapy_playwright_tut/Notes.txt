@@ -1,0 +1,4 @@
+1. Install module 
+pip install scrapy-playwright
+
+2. playwright install

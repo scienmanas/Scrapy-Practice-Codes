@@ -12,6 +12,15 @@ BOT_NAME = "scrapy_playwright_tut"
 SPIDER_MODULES = ["scrapy_playwright_tut.spiders"]
 NEWSPIDER_MODULE = "scrapy_playwright_tut.spiders"
 
+# Custom setiing for scrapy-playwright
+
+DOWNLOAD_HANDLERS = {
+    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}
+
+TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "scrapy_playwright_tut (+http://www.yourdomain.com)"
