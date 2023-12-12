@@ -1,7 +1,7 @@
 # Scrapy_practice_codes
 Different scrapy spiders to learn different functions of scrapy 
 
-## Scrapy_Splash_tut
+## [Scrapy_Splash_tut](https://github.com/scienmanas/Scrapy_practice_codes/tree/main/scrapy_splash_tut)
 
 This is a simple tutorial on how to use Splash with Scrapy. It uses the tutorial from the official documentation and adds some comments for configuring the scrapy_splash
 
