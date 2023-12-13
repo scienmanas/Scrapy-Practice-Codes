@@ -2,3 +2,7 @@
 pip install scrapy-playwright
 
 2. playwright install
+
+3. Change settings and add extensions and download middlewares
+
+4. Integrate page method to spider
