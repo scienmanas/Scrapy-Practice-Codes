@@ -54,3 +54,5 @@ pip install -r requirements.txt
 
 ## Purpose
 
+To practice scrapping and taking screenshots
+Website Scraped: [Quotes To Scrape Js](https://quotes.toscrape.com/js/) and [Quotes To Scrape Scroll](https://quotes.toscrape.com/scroll/)
