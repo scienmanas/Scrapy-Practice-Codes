@@ -20,3 +20,4 @@ class PaginationPaginateApiRequestSpider(scrapy.Spider):
             yield response.follow(next_page, callback= self.parse)
 
 
+## Check Api for more clarification 
