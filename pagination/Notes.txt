@@ -1,0 +1,7 @@
+1. Autopager is a Python package that detects and classifies pagination links on a page, using a pre-trained machine learning model. 
+
+2. pip install autopager
+
+3. You could try and directly integrte Autopager into your Scrapy spider, however, as it only extracts the pagination links it finds on the example page you provide it won't generate all the pagination links you need. Plus, it can catch pagination links that you mightn't be interested in.
+
+So the best way to use it is when you are first investigating a page, you provide an example URL and use it to quickly identify the pagination mechanism.
