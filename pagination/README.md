@@ -32,3 +32,7 @@ This project is licensed under the [MIT License](/path/to/LICENSE).
 - [Quotes To Scrape](http://quotes.toscrape.com)
 - [ScraperApi](https://www.scraperapi.com/post-sitemap.xml)
 - [The Rick and Morty API](https://rickandmortyapi.com/api/character/)
+
+## Refernce: 
+
+[The Scrape PlayBook](https://thepythonscrapyplaybook.com/scrapy-pagination-guide/#2-follow-next-page-url-from-response)
