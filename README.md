@@ -23,4 +23,8 @@ This is a simple tutorial on how to use pagination in scrapy. It uses the tutori
 
 References: [The Scrapy Playbook](https://thepythonscrapyplaybook.com/scrapy-pagination-guide/)
 
+## [Login To Amazon.com](https://github.com/scienmanas/Scrapy_practice_codes/tree/main/logintowebsites)
 
+This is a simple tutorial on how to login to amazon.com using scrapy. It uses the tutorial from the official documentation.
+
+References: [The Scrapy Playbook](https://thepythonscrapyplaybook.com/scrapy-login-form/)
